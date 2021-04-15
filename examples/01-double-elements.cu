@@ -40,7 +40,7 @@ bool checkElementsAreDoubled(int *a, int N)
 
 int main()
 {
-    int N = 1000;
+    int N = 2<<20;
     int *a;
 
     size_t size = N * sizeof(int);
