@@ -5,7 +5,7 @@
 @Version :   1.0
 @Contact :   haoyuguo@usc.edu
 '''
-#include<stidio.h>
+#include<stdio.h>
 // 执行下面的指令
 // nvcc -arch=sm_70 -o hello-gpu 01-hello-gpu.cu -run
 void helloCPU()

@@ -1,11 +1,11 @@
 '''
 @File    :   02-multi-block-loop.cu
-@Time    :   2021/04/22 18:05:16
+@Time    :   2021/04/22 19:11:52
 @Author  :   Haoyu Guo 
 @Version :   1.0
 @Contact :   haoyuguo@usc.edu
 '''
-#include<stidio.h>
+#include<stdio.h>
 // nvcc -arch=sm_70 -o multi-block-loop 02-multi-block-loop.cu -run
 
 /*
@@ -20,6 +20,7 @@
 //     printf("This is iteration number %d\n", i);
 //   }
 // }
+
 
 __global__ void loop(){
     printf("This is iteration number %d\n", blockIdx.x * blockDim.x + threadIdx.x ) ;

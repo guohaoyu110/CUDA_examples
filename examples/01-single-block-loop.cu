@@ -5,7 +5,7 @@
 @Version :   1.0
 @Contact :   haoyuguo@usc.edu
 '''
-#include<stidio.h>
+#include<stdio.h>
 // nvcc -arch=sm_70 -o single-block-loop 01-single-block-loop.cu -run
 
 /*

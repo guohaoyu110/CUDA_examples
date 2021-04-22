@@ -5,7 +5,7 @@
 @Version :   1.0
 @Contact :   haoyuguo@usc.edu
 '''
-#include<stidio.h>
+#include<stdio.h>
 void CPUFunction(){
     printf("This function is defined to run on GPU.\n");
 }

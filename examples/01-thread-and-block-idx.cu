@@ -5,7 +5,7 @@
 @Version :   1.1
 @Contact :   haoyuguo@usc.edu
 '''
-#include<stidio.h>
+#include<stdio.h>
 
 // Currently the 01-thread-and-block-idx.cu file contains a working kernel 
 // that is printing a failure message. Open the file to learn how to update 

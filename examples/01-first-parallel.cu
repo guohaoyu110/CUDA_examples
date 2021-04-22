@@ -5,7 +5,7 @@
 @Version :   1.0
 @Contact :   haoyuguo@usc.edu
 '''
-#include<stidio.h>
+#include<stdio.h>
 
 // 执行的指令
 // nvcc -arch=sm_70 -o first-parallel 01-first-parallel.cu -run
