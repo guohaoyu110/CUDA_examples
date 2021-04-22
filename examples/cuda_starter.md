@@ -5,6 +5,8 @@
 
 ## *Compiling and Running Accelerated CUDA Code*
 
+
+<!-- https://praveenpuglia.com/github_markdown_snippets/ -->
 The CUDA platform ships with the NVIDIA CUDA Compiler nvcc, which can compile CUDA accelerated applications, both the host, and the device code they contain. For the purposes of this lab, nvcc discussion will be pragmatically scoped to suit our immediate needs. After completing the lab, For anyone interested in a deeper dive into nvcc, start with the documentation.
 
 nvcc will be very familiar to experienced gcc users. Compiling, for example, a some-CUDA.cu file, is simply:
