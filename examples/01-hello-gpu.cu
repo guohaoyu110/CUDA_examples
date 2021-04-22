@@ -1,4 +1,11 @@
-#include <stdio.h>
+'''
+@File    :   01-hello-gpu.cu
+@Time    :   2021/04/22 18:05:30
+@Author  :   Haoyu Guo 
+@Version :   1.0
+@Contact :   haoyuguo@usc.edu
+'''
+#include<stidio.h>
 // 执行下面的指令
 // nvcc -arch=sm_70 -o hello-gpu 01-hello-gpu.cu -run
 void helloCPU()

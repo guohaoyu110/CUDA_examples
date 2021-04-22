@@ -1,4 +1,11 @@
-#include <stdio.h>
+'''
+@File    :   01-first-parallel.cu
+@Time    :   2021/04/22 18:05:36
+@Author  :   Haoyu Guo 
+@Version :   1.0
+@Contact :   haoyuguo@usc.edu
+'''
+#include<stidio.h>
 
 // 执行的指令
 // nvcc -arch=sm_70 -o first-parallel 01-first-parallel.cu -run

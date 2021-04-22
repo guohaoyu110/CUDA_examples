@@ -1,3 +1,11 @@
+'''
+@File    :   1.cu
+@Time    :   2021/04/22 18:03:05
+@Author  :   Haoyu Guo 
+@Version :   1.0
+@Contact :   haoyuguo@usc.edu
+'''
+#include<stidio.h>
 void CPUFunction(){
     printf("This function is defined to run on GPU.\n");
 }

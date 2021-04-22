@@ -1,6 +1,11 @@
-#include <stdio.h>
-
-
+'''
+@File    :   02-multi-block-loop.cu
+@Time    :   2021/04/22 18:05:16
+@Author  :   Haoyu Guo 
+@Version :   1.0
+@Contact :   haoyuguo@usc.edu
+'''
+#include<stidio.h>
 // nvcc -arch=sm_70 -o multi-block-loop 02-multi-block-loop.cu -run
 
 /*

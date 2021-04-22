@@ -1,4 +1,11 @@
-#include <stdio.h>
+'''
+@File    :   01-thread-and-block-idx.cu
+@Time    :   2021/04/22 18:04:40
+@Author  :   Haoyu Guo 
+@Version :   1.1
+@Contact :   haoyuguo@usc.edu
+'''
+#include<stidio.h>
 
 // Currently the 01-thread-and-block-idx.cu file contains a working kernel 
 // that is printing a failure message. Open the file to learn how to update 
@@ -27,3 +34,5 @@ int main()
   cudaDeviceSynchronize();
   // printSuccessForCorrectExecutionConfiguration<<<1, 1>>>();
 }
+
+

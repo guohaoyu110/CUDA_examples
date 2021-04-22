@@ -1,5 +1,11 @@
-#include <stdio.h>
-
+'''
+@File    :   01-double-elements.cu
+@Time    :   2021/04/22 18:05:42
+@Author  :   Haoyu Guo 
+@Version :   1.0
+@Contact :   haoyuguo@usc.edu
+'''
+#include<stidio.h>
 /*
  * Initialize array values on the host.
  */

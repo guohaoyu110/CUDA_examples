@@ -1,5 +1,11 @@
-# include <stdio.h>
-
+'''
+@File    :   01-single-block-loop.cu
+@Time    :   2021/04/22 18:05:24
+@Author  :   Haoyu Guo 
+@Version :   1.0
+@Contact :   haoyuguo@usc.edu
+'''
+#include<stidio.h>
 // nvcc -arch=sm_70 -o single-block-loop 01-single-block-loop.cu -run
 
 /*
